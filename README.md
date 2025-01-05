@@ -1,0 +1,2 @@
+# Electrifying-NYC-A-System-Dynamics-Model-of-EV-Adoption-and-Sustainability-Impacts
+The model simulates the environmental, economic, and resource impacts of transitioning from ICEVs to EVs in NYC, reflecting sustainable energy goals. It incorporates delays and variability to capture real-world dynamics, offering insights on emissions reduction, economic effects, and resource needs to guide urban policy and planning.
