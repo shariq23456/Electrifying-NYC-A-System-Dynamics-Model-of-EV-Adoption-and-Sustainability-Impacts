@@ -1,0 +1,473 @@
+<InsightMakerModel>
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <Setting Note="" Version="37" TimeLength="30" TimeStart="0" TimeStep="0.25" TimeUnits="Years" Units="" SolutionAlgorithm="RK1" BackgroundColor="white" Throttle="1" Macros="" SensitivityPrimitives="" SensitivityRuns="50" SensitivityBounds="50, 80, 95, 100" SensitivityShowRuns="false" StyleSheet="{}" id="2">
+      <mxCell parent="1" vertex="1" visible="0">
+        <mxGeometry x="20" y="20" width="80" height="40" as="geometry" />
+      </mxCell>
+    </Setting>
+    <Display name="Trends in structural shifts in vehicle types" Note="" Type="Time Series" xAxis="Time (%u)" yAxis="%o" Primitives="92,93" AutoAddPrimitives="true" ScatterplotOrder="X Primitive, Y Primitive" Image="Display" yAxis2="" Primitives2="" showMarkers="false" showLines="true" showArea="false" legendPosition="Automatic" id="3">
+      <mxCell style="roundImage;image=/editor/images/DisplayFull.png;" parent="1" vertex="1" visible="0">
+        <mxGeometry x="50" y="20" width="64" height="64" as="geometry" />
+      </mxCell>
+    </Display>
+    <Stock name="ICE_Vehicle_Population" Note="&lt;span id=&quot;docs-internal-guid-68e29e73-7fff-8bf0-f2ca-208963509d9b&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;span style=&quot;letter-spacing: 0.39996px&quot;&gt;Represents the total number of internal combustion engine (ICE) vehicles in NYC.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;span style=&quot;letter-spacing: 0.39996px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;Initial Value:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent ; color: rgb( 0 , 0 , 0 ) ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; font-size: 11pt ; letter-spacing: 0.03333em&quot;&gt;2,077,000 vehicles(Total) - 62,192 vehicles(EV)&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;Units: Vehicles&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;span style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; letter-spacing: 0.39996px; white-space-collapse: preserve; background-color: transparent; font-size: 11pt; vertical-align: baseline;&quot;&gt;Source:&lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;https://nyc.streetsblog.org/2023/04/19/komanoff-dissects-new-york-citys-car-baby-boom&quot; style=&quot;font-size: 0.75rem; letter-spacing: 0.03333em; text-decoration-line: none;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(17, 85, 204); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; text-decoration-line: underline; text-decoration-skip-ink: none; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;https://nyc.streetsblog.org/2023/04/19/komanoff-dissects-new-york-citys-car-baby-boom&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/span&gt;" InitialValue="2077000-62192" StockMode="Store" Delay="10" Volume="100" NonNegative="false" Units="Vehicle" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="92" id="92">
+      <mxCell style="stock" parent="1" vertex="1">
+        <mxGeometry x="1040" y="550" width="170" height="60" as="geometry" />
+      </mxCell>
+    </Stock>
+    <Stock name="EV_Population" Note="&lt;span id=&quot;docs-internal-guid-8b581e44-7fff-b9aa-a3d7-addf7d6c36a6&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;Represents the total number of electric vehicles (EVs) in NYC.&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;Cumulative GHG Emissions&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: #000000 ; background-color: transparent ; font-weight:  ; font-style: normal ; font-variant: normal ; text-decoration: none ; vertical-align: baseline ; white-space: pre ; white-space: pre-wrap&quot;&gt;Initial Value: 50,000 vehicles&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;span id=&quot;docs-internal-guid-873050ed-7fff-2837-fa2e-61fbfea9dc12&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: #000000 ; background-color: transparent ; font-weight:  ; font-style: normal ; font-variant: normal ; text-decoration: none ; vertical-align: baseline ; white-space: pre ; white-space: pre-wrap&quot;&gt;Units: Vehicles&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: #000000 ; background-color: transparent ; font-weight:  ; font-style: normal ; font-variant: normal ; text-decoration: none ; vertical-align: baseline ; white-space: pre ; white-space: pre-wrap&quot;&gt;Source:&lt;/span&gt;&lt;a href=&quot;https://www.nyc.gov/html/dot/html/pr2024/public-electric-vehicle-fast-charging.shtml&quot; style=&quot;font-size: 0.75rem; letter-spacing: 0.03333em; text-decoration-line: none;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(17, 85, 204); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; text-decoration-line: underline; text-decoration-skip-ink: none; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;https://www.nyc.gov/html/dot/html/pr2024/public-electric-vehicle-fast-charging.shtml&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/span&gt;" InitialValue="62192" StockMode="Store" Delay="10" Volume="100" NonNegative="false" Units="Vehicle" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="93" id="93">
+      <mxCell style="stock" parent="1" vertex="1">
+        <mxGeometry x="800" y="550" width="120" height="60" as="geometry" />
+      </mxCell>
+    </Stock>
+    <Stock name="Cumulative_GHG_Emissions" Note="&lt;span id=&quot;docs-internal-guid-e99aa0c8-7fff-8807-6051-d67861df80e7&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;Accumulates the total greenhouse gas emissions over time from both ICE vehicles and EVs.&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot;&gt;&lt;span style=&quot;font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Initial Value: 0 metric tons CO₂e&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;span id=&quot;docs-internal-guid-f31be8f3-7fff-5eb8-cf5e-f31db8fa882e&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot;&gt;&lt;span style=&quot;font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Units: Metric tons CO₂ equivalent&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" InitialValue="0" StockMode="Store" Delay="10" Volume="100" NonNegative="false" Units="Metric Tons CO2e" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="94" id="94">
+      <mxCell style="stock" parent="1" vertex="1">
+        <mxGeometry x="1450" y="660" width="200" height="70" as="geometry" />
+      </mxCell>
+    </Stock>
+    <Stock name="Cumulative_Fuel_Consumption" Note="&lt;span id=&quot;docs-internal-guid-1e4fadcc-7fff-8563-fe0c-aa73d5780632&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;Accumulates the total gasoline consumption by ICE vehicles over time.&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span id=&quot;docs-internal-guid-45dc617a-7fff-8d94-aeda-bb29b166ec37&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Initial Value: 0 gallons&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Units: Gallons of gasoline&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;/div&gt;" InitialValue="0" StockMode="Store" Delay="10" Volume="100" NonNegative="false" Units="Gallons" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="95" id="95">
+      <mxCell style="stock" parent="1" vertex="1">
+        <mxGeometry x="1300" y="280" width="210" height="70" as="geometry" />
+      </mxCell>
+    </Stock>
+    <Stock name="Cumulative_Electricity_Consumption" Note="&lt;span id=&quot;docs-internal-guid-99415584-7fff-df6a-d2a9-73772eaea856&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;Accumulates the total electricity consumption by EVs over time.&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;Flows&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: #000000 ; background-color: transparent ; font-weight:  ; font-style: normal ; font-variant: normal ; text-decoration: none ; vertical-align: baseline ; white-space: pre ; white-space: pre-wrap&quot;&gt;Initial Value: 0 KWh&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;span id=&quot;docs-internal-guid-6c9ff3ca-7fff-0001-c12e-a0455acbce43&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: #000000 ; background-color: transparent ; font-weight:  ; font-style: normal ; font-variant: normal ; text-decoration: none ; vertical-align: baseline ; white-space: pre ; white-space: pre-wrap&quot;&gt;Units: Megawatt-hours&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" InitialValue="0" StockMode="Store" Delay="10" Volume="100" NonNegative="false" Units="kWh" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="96" id="96">
+      <mxCell style="stock" parent="1" vertex="1">
+        <mxGeometry x="670" y="290" width="250" height="70" as="geometry" />
+      </mxCell>
+    </Stock>
+    <Flow name="ICE_Vehicle_Retirement_Rate" Note="&lt;span id=&quot;docs-internal-guid-9d744d1a-7fff-1a82-e862-1258695cd409&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;The rate at which ICE vehicles are retired from service.&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" FlowRate="[ICE_Vehicle_Population]/[Average Vehicle Lifetime]" OnlyPositive="true" TimeIndependent="false" Units="Vehicle/Year" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" oldId="97" id="97">
+      <mxCell style="flow" parent="1" source="92" edge="1">
+        <mxGeometry width="100" height="100" as="geometry">
+          <mxPoint x="830" y="19.5" as="sourcePoint" />
+          <mxPoint x="1130" y="730" as="targetPoint" />
+          <mxPoint y="5" as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Flow>
+    <Variable name="Average Vehicle Lifetime" Note="&lt;span id=&quot;docs-internal-guid-f6912f74-7fff-8020-2dbe-4660bbf777b3&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;The average operational lifetime of vehicles in NYC.&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; letter-spacing: 0.39996px; white-space-collapse: preserve; background-color: transparent; font-size: 11pt; font-family: arial, sans-serif; color: rgb(0, 0, 0); vertical-align: baseline;&quot;&gt;Source:&lt;/span&gt;&lt;font color=&quot;#1155cc&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;&lt;u&gt;https://www.bts.gov/content/average-age-automobiles-and-trucks-operation-united-states&lt;/u&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#1155cc&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;&lt;u&gt;https://ranwhenparked.net/average-age-of-cars-in-usa/&lt;/u&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" Equation="12.2" Units="Years" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="99" id="99">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="1190" y="740" width="130" height="50" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Link name="Link" Note="" BiDirectional="false" oldId="100" id="100">
+      <mxCell style="link" parent="1" source="99" target="97" edge="1">
+        <mxGeometry x="-220" y="30" width="100" height="100" as="geometry">
+          <mxPoint x="-220" y="130" as="sourcePoint" />
+          <mxPoint x="-120" y="30" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Flow name="EV_Adoption_Rate" Note="&lt;span id=&quot;docs-internal-guid-6eba40f1-7fff-0518-da93-d62be1b0fe43&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;The rate at which new EVs are adopted, influenced by policies and consumer preferences.&lt;/span&gt;&lt;/span&gt;" FlowRate="[EV_Population] * [ EV_Adoption_Fraction]" OnlyPositive="true" TimeIndependent="false" Units="Vehicle/Year" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" oldId="102" id="102">
+      <mxCell style="flow" parent="1" target="93" edge="1">
+        <mxGeometry x="390" y="155" width="100" height="100" as="geometry">
+          <mxPoint x="540" y="580" as="sourcePoint" />
+          <mxPoint x="390" y="255" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Flow>
+    <Flow name="GHG_Emission_Rate" Note="&lt;span id=&quot;docs-internal-guid-26e0dd4c-7fff-c52f-8315-d01571372725&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;The annual greenhouse gas emissions from both ICE vehicles and EVs.&lt;/span&gt;&lt;/span&gt;" FlowRate="([ICE_Vehicle_Population] * [ICE_Emission_Factor]) + ([EV_Population] * [EV_Emission_Factor])" OnlyPositive="true" TimeIndependent="false" Units="Metric Tons CO2e/Year" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" oldId="103" id="103">
+      <mxCell style="flow" parent="1" target="94" edge="1">
+        <mxGeometry x="70" y="82.5" width="100" height="100" as="geometry">
+          <mxPoint x="1280" y="690" as="sourcePoint" />
+          <mxPoint x="70" y="182.5" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Flow>
+    <Flow name="Fuel_Consumption_Rate" Note="&lt;span id=&quot;docs-internal-guid-3abd230f-7fff-cb23-458d-8632ece8b1f2&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;The annual gasoline consumption by ICE vehicles.&lt;/span&gt;&lt;/span&gt;" FlowRate="[ICE_Vehicle_Population] * [Average_Annual_Mileage] / [Fuel_Efficiency]" OnlyPositive="true" TimeIndependent="false" Units="Gallons/Year" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" oldId="104" id="104">
+      <mxCell style="flow" parent="1" target="95" edge="1">
+        <mxGeometry x="870" y="210" width="100" height="100" as="geometry">
+          <mxPoint x="1390" y="460" as="sourcePoint" />
+          <mxPoint x="870" y="310" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Flow>
+    <Flow name="Electricity_Consumption_Rate" Note="&lt;span id=&quot;docs-internal-guid-01c922f9-7fff-aa5c-195d-49cd532f6393&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;The annual electricity consumption by EVs&lt;/span&gt;&lt;/span&gt;" FlowRate="[EV_Population] * [Average_Annual_Mileage] / [EV_Efficiency]" OnlyPositive="true" TimeIndependent="false" Units="kWh/Year" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" oldId="105" id="105">
+      <mxCell style="flow" parent="1" target="96" edge="1">
+        <mxGeometry x="20" y="29.17" width="100" height="100" as="geometry">
+          <mxPoint x="900" y="480" as="sourcePoint" />
+          <mxPoint x="20" y="129.17000000000002" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Flow>
+    <Variable name="New_Vehicle_Purchases" Note="&lt;span id=&quot;docs-internal-guid-0e8a486d-7fff-ba91-aee7-cda57d1edc4d&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Assumes that retired vehicles are replaced one-for-one with new vehicles.&lt;/span&gt;&lt;/span&gt;" Equation="[ICE_Vehicle_Retirement_Rate]" Units="Vehicle/Year" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="107" id="107">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="880" y="680" width="120" height="50" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Link name="Link" Note="" BiDirectional="false" oldId="108" id="108">
+      <mxCell style="link" parent="1" source="97" target="107" edge="1">
+        <mxGeometry x="420" y="120" width="100" height="100" as="geometry">
+          <mxPoint x="420" y="220" as="sourcePoint" />
+          <mxPoint x="520" y="120" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Variable name=" EV_Adoption_Fraction" Note="&lt;span id=&quot;docs-internal-guid-cee9af99-7fff-6c75-eb56-8490ffb1489a&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;The fraction of new vehicle purchases that are EVs.&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" Equation="[Base_EV_Adoption_Fraction] + [Policy_Impact] + [Technological_Advancement_Impact] + [Consumer_Preference_Variability]" Units="1/Year" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="109" id="109">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="330" y="560" width="120" height="50" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Variable name="Base_EV_Adoption_Fraction" Note="&lt;span id=&quot;docs-internal-guid-a6022464-7fff-93fc-a632-7218e5e11fbe&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;The baseline rate of EV adoption without any external influences&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span id=&quot;docs-internal-guid-92a1535a-7fff-0407-0e63-52e3745b8986&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: arial, sans-serif; font-size: 14.6667px; letter-spacing: 0.39996px; white-space-collapse: preserve;&quot;&gt;Source: &lt;/span&gt;&lt;a href=&quot;https://www.caranddriver.com/news/a46340514/ev-sales-are-just-getting-started/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer nofollow&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 17 , 85 , 204 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;https://www.caranddriver.com/news/a46340514/ev-sales-are-just-getting-started/&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;" Equation="0.08" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="110" id="110">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="210" y="320" width="210" height="60" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Variable name="Policy_Impact" Note="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: arial, sans-serif; font-size: 14.6667px; letter-spacing: 0.39996px;&quot;&gt;The impact of policies promoting EV adoption, with a delay.&lt;/span&gt;" Equation="Delay([Policy_Effectiveness],[Policy Delay Time])" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="112" id="112">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="460" y="470" width="120" height="50" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Variable name="Policy_Effectiveness" Note="&lt;span id=&quot;docs-internal-guid-7bea717f-7fff-3af9-b10d-0e3246df3839&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span id=&quot;docs-internal-guid-491ae064-7fff-e5dd-a9a4-da1770f6ece5&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;The effectiveness of policy measures on increasing EV adoption.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span&gt;&lt;span style=&quot;background-color: transparent; vertical-align: baseline;&quot;&gt;&lt;font color=&quot;#000000&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;Value: 0.02&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" Equation="0.02" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="true" SliderMax="0.1" SliderMin="0" SliderStep="0.01" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="113" id="113">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="420" y="370" width="160" height="50" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Variable name="Policy Delay Time" Note="&lt;span id=&quot;docs-internal-guid-7bea717f-7fff-3af9-b10d-0e3246df3839&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span id=&quot;docs-internal-guid-89473807-7fff-6829-958e-909c31441cb9&quot;&gt;&lt;span style=&quot;background-color: transparent; vertical-align: baseline;&quot;&gt;&lt;font color=&quot;#000000&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;The time lag before policies begin to influence EV adoption rates.&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#000000&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;Value: 1 year&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" Equation="1" Units="Years" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="true" SliderMax="2" SliderMin="0" SliderStep="0.1" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="114" id="114">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="590" y="410" width="120" height="50" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Variable name="Technological_Advancement_Impact" Note="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: arial, sans-serif; font-size: 14.6667px; letter-spacing: 0.39996px;&quot;&gt;Cumulative effect of technological improvements on EV adoption, with a delay&lt;/span&gt;" Equation="Delay([Tech_Improvement_Rate], [Tech Delay Time])" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="115" id="115">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="60" y="490" width="260" height="60" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Variable name="Tech_Improvement_Rate" Note="&lt;span id=&quot;docs-internal-guid-5e0f4a3a-7fff-ebcc-7ad2-0387303859ef&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Rate of technological improvements, including stochastic variation.&lt;/span&gt;&lt;/span&gt;" Equation="0.005 * Rand(0.8, 1.2)" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="116" id="116">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="50" y="390" width="120" height="50" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Variable name="Consumer_Preference_Variability" Note="&lt;span id=&quot;docs-internal-guid-a84f9fc8-7fff-a6c0-b5ad-e4d0e4954a08&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Random variability in consumer preferences influencing EV adoption.&lt;/span&gt;&lt;/span&gt;" Equation="Rand(0,0.01)" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="117" id="117">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="80" y="600" width="240" height="60" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Link name="Link" Note="" BiDirectional="false" oldId="118" id="118">
+      <mxCell style="link" parent="1" source="110" target="109" edge="1">
+        <mxGeometry x="-170" y="440" width="100" height="100" as="geometry">
+          <mxPoint x="-170" y="540" as="sourcePoint" />
+          <mxPoint x="980" y="750" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="119" id="119">
+      <mxCell style="link" parent="1" source="112" target="109" edge="1">
+        <mxGeometry x="-170" y="440" width="100" height="100" as="geometry">
+          <mxPoint x="-170" y="540" as="sourcePoint" />
+          <mxPoint x="-70" y="440" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="120" id="120">
+      <mxCell style="link" parent="1" source="115" target="109" edge="1">
+        <mxGeometry x="-170" y="440" width="100" height="100" as="geometry">
+          <mxPoint x="-170" y="540" as="sourcePoint" />
+          <mxPoint x="-70" y="440" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="121" id="121">
+      <mxCell style="link" parent="1" source="117" target="109" edge="1">
+        <mxGeometry x="-170" y="440" width="100" height="100" as="geometry">
+          <mxPoint x="-170" y="540" as="sourcePoint" />
+          <mxPoint x="-70" y="440" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="122" id="122">
+      <mxCell style="link" parent="1" source="113" target="112" edge="1">
+        <mxGeometry x="-190" y="330" width="100" height="100" as="geometry">
+          <mxPoint x="-190" y="430" as="sourcePoint" />
+          <mxPoint x="-90" y="330" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="123" id="123">
+      <mxCell style="link" parent="1" source="114" target="112" edge="1">
+        <mxGeometry x="-190" y="330" width="100" height="100" as="geometry">
+          <mxPoint x="-190" y="430" as="sourcePoint" />
+          <mxPoint x="1010" y="590" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="124" id="124">
+      <mxCell style="link" parent="1" source="116" target="115" edge="1">
+        <mxGeometry x="-590" y="320" width="100" height="100" as="geometry">
+          <mxPoint x="-590" y="420" as="sourcePoint" />
+          <mxPoint x="-490" y="320" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="125" id="125">
+      <mxCell style="link" parent="1" source="109" target="102" edge="1">
+        <mxGeometry x="250" y="50" width="100" height="100" as="geometry">
+          <mxPoint x="350" y="50" as="sourcePoint" />
+          <mxPoint x="250" y="150" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Variable name="ICE_Emission_Factor" Note="&lt;span id=&quot;docs-internal-guid-3c5fbc77-7fff-8375-7eee-0ee8e7811664&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;Average GHG emissions per ICE vehicle per year.&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;background-color: transparent; vertical-align: baseline;&quot;&gt;&lt;font color=&quot;#000000&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;Source: Environmental Protection Agency (EPA) estimates.&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" Equation="4.6" Units="Metric Tons CO2e/Vehicle/Year" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="126" id="126">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="1240" y="530" width="120" height="50" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Variable name="EV_Emission_Factor" Note="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 14.6667px; letter-spacing: 0.39996px; white-space-collapse: preserve;&quot;&gt;GHG emissions per EV per year, based on electricity used.&lt;/span&gt;" Equation="[ Electricity_Emission_Factor] * ([Average_Annual_Mileage]/[EV_Efficiency])" Units="Metric Tons CO2e/Vehicle/Year" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="127" id="127">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="1390" y="540" width="150" height="50" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Variable name=" Electricity_Emission_Factor" Note="&lt;span id=&quot;docs-internal-guid-0990c2d9-7fff-550b-0b84-3257e069b8f7&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;GHG emissions per kWh of electricity consumed in NYC.&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;background-color: transparent; vertical-align: baseline;&quot;&gt;&lt;font color=&quot;#000000&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;Source: EPA&#39;s Emissions &amp;amp; Generation Resource Integrated Database (eGRID).&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" Equation="0.00043" Units="Metric Tons CO2e/kWh" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="128" id="128">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="1540" y="440" width="200" height="50" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Variable name="Average_Annual_Mileage" Note="&lt;span id=&quot;docs-internal-guid-5862492b-7fff-9ad0-12c9-d18cbdcf9b4e&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;Average distance traveled by a vehicle in NYC annually&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;background-color: transparent; vertical-align: baseline;&quot;&gt;&lt;font color=&quot;#000000&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;Source:&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;https://www.capitalone.com/cars/learn/managing-your-money-wisely/how-much-does-it-cost-to-own-a-car-in-new-york/2853&quot; style=&quot;font-size: 0.75rem; letter-spacing: 0.03333em; text-decoration-line: none;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(17, 85, 204); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; text-decoration-line: underline; text-decoration-skip-ink: none; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;https://www.capitalone.com/cars/learn/managing-your-money-wisely/how-much-does-it-cost-to-own-a-car-in-new-york/2853&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;" Equation="10167" Units="Miles/Year/Vehicle" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="131" id="131">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="1100" y="350" width="120" height="50" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Variable name="Fuel_Efficiency" Note="&lt;span id=&quot;docs-internal-guid-e79e6150-7fff-a6e2-d025-15c302e62cb4&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;Average fuel efficiency of ICE vehicles in NYC.&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;letter-spacing: 0.39996px;&quot;&gt;&lt;span style=&quot;background-color: transparent; vertical-align: baseline;&quot;&gt;&lt;font color=&quot;#000000&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;Source:&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;https://www.capitalone.com/cars/learn/managing-your-money-wisely/how-much-does-it-cost-to-own-a-car-in-new-york/2853&quot; style=&quot;font-size: 0.75rem; letter-spacing: 0.03333em; text-decoration-line: none;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(17, 85, 204); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; text-decoration-line: underline; text-decoration-skip-ink: none; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;https://www.capitalone.com/cars/learn/managing-your-money-wisely/how-much-does-it-cost-to-own-a-car-in-new-york/2853&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;" Equation="22" Units="Miles/Gallon" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="132" id="132">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="1550" y="340" width="120" height="50" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Variable name="EV_Efficiency" Note="&lt;span id=&quot;docs-internal-guid-ae2d997c-7fff-4f68-12b4-70fbe0ee2697&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;Average efficiency of EVs in NYC.&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;letter-spacing: 0.39996px;&quot;&gt;&lt;span style=&quot;background-color: transparent; vertical-align: baseline;&quot;&gt;&lt;font color=&quot;#000000&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;Source:&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;https://justwe-gpi.com/ev-charging/electric-car-mileage/#:~:text=On%20average%2C%20modern%20electric%20cars,early%20days%20of%20electric%20mobility&quot; style=&quot;font-size: 0.75rem; letter-spacing: 0.03333em; text-decoration-line: none;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(17, 85, 204); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; text-decoration-line: underline; text-decoration-skip-ink: none; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;https://justwe-gpi.com/ev-charging/electric-car-mileage/#:~:text=On%20average%2C%20modern%20electric%20cars,early%20days%20of%20electric%20mobility&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;" Equation="3.5" Units="Miles/kWh" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="133" id="133">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="1100" y="440" width="120" height="50" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Link name="Link" Note="" BiDirectional="false" oldId="134" id="134">
+      <mxCell style="link" parent="1" source="128" target="127" edge="1">
+        <mxGeometry x="-30" y="-65" width="100" height="100" as="geometry">
+          <mxPoint x="-30" y="35" as="sourcePoint" />
+          <mxPoint x="70" y="-65" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="135" id="135">
+      <mxCell style="link" parent="1" source="131" target="127" edge="1">
+        <mxGeometry x="-30" y="-65" width="100" height="100" as="geometry">
+          <mxPoint x="-30" y="35" as="sourcePoint" />
+          <mxPoint x="70" y="-65" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="136" id="136">
+      <mxCell style="link" parent="1" source="133" target="127" edge="1">
+        <mxGeometry x="-30" y="-65" width="100" height="100" as="geometry">
+          <mxPoint x="-30" y="35" as="sourcePoint" />
+          <mxPoint x="70" y="-65" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="138" id="138">
+      <mxCell style="link" parent="1" source="126" target="103" edge="1">
+        <mxGeometry width="100" height="100" as="geometry">
+          <mxPoint y="100" as="sourcePoint" />
+          <mxPoint x="100" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="139" id="139">
+      <mxCell style="link" parent="1" source="93" target="103" edge="1">
+        <mxGeometry width="100" height="100" as="geometry">
+          <mxPoint y="100" as="sourcePoint" />
+          <mxPoint x="100" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="140" id="140">
+      <mxCell style="link" parent="1" source="127" target="103" edge="1">
+        <mxGeometry x="110" y="-90" width="100" height="100" as="geometry">
+          <mxPoint x="110" y="10" as="sourcePoint" />
+          <mxPoint x="210" y="-90" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="141" id="141">
+      <mxCell style="link" parent="1" source="92" target="103" edge="1">
+        <mxGeometry width="100" height="100" as="geometry">
+          <mxPoint y="100" as="sourcePoint" />
+          <mxPoint x="1200" y="760" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Variable name="Fuel_Price" Note="&lt;span id=&quot;docs-internal-guid-0a901c55-7fff-9844-5f92-2383977abfb8&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;The price of gasoline, including stochastic fluctuations.&lt;/span&gt;&lt;/span&gt;" Equation="[Base_Fuel_Price]+[Fuel_Price_Variation]" Units="USD/Gallon" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="142" id="142">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="930" y="130" width="120" height="50" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Variable name="Base_Fuel_Price" Note="&lt;span id=&quot;docs-internal-guid-424d3d3f-7fff-a1f0-2944-910916253b97&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Baseline gasoline price in NYC.&lt;/span&gt;&lt;/span&gt;" Equation="3.50" Units="USD/Gallon" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="143" id="143">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="820" y="30" width="120" height="50" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Variable name="Fuel_Price_Variation" Note="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 14.6667px; letter-spacing: 0.39996px; white-space-collapse: preserve;&quot;&gt;Random variation in fuel price to simulate market fluctuations.&lt;/span&gt;" Equation="RandNormal(0,0.25)" Units="USD/Gallon" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="144" id="144">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="950" y="20" width="120" height="50" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Variable name="Electricity_Price" Note="&lt;span id=&quot;docs-internal-guid-5e902ce8-7fff-f407-a303-512271d06c88&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;The price of electricity, including stochastic fluctuations.&lt;/span&gt;&lt;/span&gt;" Equation="[Base_Electricity_Price] + [Electricity_Price_Variation]" Units="USD/kWh" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="145" id="145">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="1110" y="120" width="120" height="50" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Link name="Link" Note="" BiDirectional="false" oldId="146" id="146">
+      <mxCell style="link" parent="1" source="143" target="142" edge="1">
+        <mxGeometry x="60" y="-80" width="100" height="100" as="geometry">
+          <mxPoint x="60" y="20" as="sourcePoint" />
+          <mxPoint x="160" y="-80" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="147" id="147">
+      <mxCell style="link" parent="1" source="144" target="142" edge="1">
+        <mxGeometry x="60" y="-80" width="100" height="100" as="geometry">
+          <mxPoint x="60" y="20" as="sourcePoint" />
+          <mxPoint x="160" y="-80" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Variable name="Base_Electricity_Price" Note="&lt;span id=&quot;docs-internal-guid-a059bc78-7fff-b98b-aabe-3505905f7b72&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Baseline electricity price in NYC&lt;/span&gt;&lt;/span&gt;" Equation="0.18" Units="USD/kWh" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="148" id="148">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="1090" y="30" width="160" height="50" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Variable name="Electricity_Price_Variation" Note="&lt;span id=&quot;docs-internal-guid-d7364f5f-7fff-8973-d1ed-e5f2e069c165&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Random variation in electricity price to simulate market fluctuations.&lt;/span&gt;&lt;/span&gt;" Equation="RandNormal(0,0.02)" Units="USD/kWh" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="149" id="149">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="1250" y="60" width="185" height="50" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Link name="Link" Note="" BiDirectional="false" oldId="150" id="150">
+      <mxCell style="link" parent="1" source="148" target="145" edge="1">
+        <mxGeometry x="60" y="-80" width="100" height="100" as="geometry">
+          <mxPoint x="60" y="20" as="sourcePoint" />
+          <mxPoint x="160" y="-80" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="151" id="151">
+      <mxCell style="link" parent="1" source="149" target="145" edge="1">
+        <mxGeometry x="60" y="-80" width="100" height="100" as="geometry">
+          <mxPoint x="60" y="20" as="sourcePoint" />
+          <mxPoint x="160" y="-80" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="152" id="152">
+      <mxCell style="link" parent="1" source="92" target="104" edge="1">
+        <mxGeometry width="100" height="100" as="geometry">
+          <mxPoint y="100" as="sourcePoint" />
+          <mxPoint x="100" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="153" id="153">
+      <mxCell style="link" parent="1" source="131" target="104" edge="1">
+        <mxGeometry x="100" width="100" height="100" as="geometry">
+          <mxPoint x="100" y="100" as="sourcePoint" />
+          <mxPoint x="1120" y="429.99999999999994" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="154" id="154">
+      <mxCell style="link" parent="1" source="132" target="104" edge="1">
+        <mxGeometry x="100" width="100" height="100" as="geometry">
+          <mxPoint x="100" y="100" as="sourcePoint" />
+          <mxPoint x="200" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="155" id="155">
+      <mxCell style="link" parent="1" source="93" target="105" edge="1">
+        <mxGeometry width="100" height="100" as="geometry">
+          <mxPoint y="100" as="sourcePoint" />
+          <mxPoint x="100" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="156" id="156">
+      <mxCell style="link" parent="1" source="131" target="105" edge="1">
+        <mxGeometry width="100" height="100" as="geometry">
+          <mxPoint y="100" as="sourcePoint" />
+          <mxPoint x="100" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="157" id="157">
+      <mxCell style="link" parent="1" source="133" target="105" edge="1">
+        <mxGeometry width="100" height="100" as="geometry">
+          <mxPoint y="100" as="sourcePoint" />
+          <mxPoint x="100" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Variable name="Total_Energy_Cost" Note="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 14.6667px; letter-spacing: 0.39996px; white-space-collapse: preserve;&quot;&gt;Combined annual cost of energy consumption for both ICE vehicles and EVs.&lt;/span&gt;" Equation="[Fuel_Consumption_Rate] * [Fuel_Price] + [Electricity_Consumption_Rate] * [Electricity_Price]" Units="USD/Year" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="158" id="158">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="1030" y="210" width="180" height="70" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Link name="Link" Note="" BiDirectional="false" oldId="159" id="159">
+      <mxCell style="link" parent="1" source="104" target="158" edge="1">
+        <mxGeometry width="100" height="100" as="geometry">
+          <mxPoint y="100" as="sourcePoint" />
+          <mxPoint x="100" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="160" id="160">
+      <mxCell style="link" parent="1" source="105" target="158" edge="1">
+        <mxGeometry width="100" height="100" as="geometry">
+          <mxPoint y="100" as="sourcePoint" />
+          <mxPoint x="100" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="161" id="161">
+      <mxCell style="link" parent="1" source="142" target="158" edge="1">
+        <mxGeometry width="100" height="100" as="geometry">
+          <mxPoint y="100" as="sourcePoint" />
+          <mxPoint x="100" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Link name="Link" Note="" BiDirectional="false" oldId="162" id="162">
+      <mxCell style="link" parent="1" source="145" target="158" edge="1">
+        <mxGeometry width="100" height="100" as="geometry">
+          <mxPoint y="100" as="sourcePoint" />
+          <mxPoint x="100" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Variable name="Tech Delay Time" Note="&lt;span id=&quot;docs-internal-guid-7d2482c3-7fff-be81-9cc6-a55cc5d1dea6&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;Time delay before technological advancements influence consumer adoption rates.&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;quot;arial&amp;quot; , sans-serif ; color: rgb( 0 , 0 , 0 ) ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;background-color: transparent; vertical-align: baseline;&quot;&gt;&lt;font color=&quot;#000000&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;Value: 2 years&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" Equation="2" Units="Years" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="true" SliderMax="5" SliderMin="0" SliderStep="1" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" oldId="163" id="163">
+      <mxCell style="variable" parent="1" vertex="1">
+        <mxGeometry x="190" y="410" width="120" height="50" as="geometry" />
+      </mxCell>
+    </Variable>
+    <Link name="Link" Note="" BiDirectional="false" oldId="164" id="164">
+      <mxCell style="link" parent="1" source="163" target="115" edge="1">
+        <mxGeometry width="100" height="100" as="geometry">
+          <mxPoint y="100" as="sourcePoint" />
+          <mxPoint x="100" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Link>
+    <Display name="Impacts on resources" Note="" Type="Time Series" xAxis="Time (%u)" yAxis="" yAxis2="" showMarkers="false" showLines="true" showArea="false" Primitives="96,95" Primitives2="" AutoAddPrimitives="false" ScatterplotOrder="X Primitive, Y Primitive" Image="Display" FlipHorizontal="false" FlipVertical="false" LabelPosition="Bottom" oldId="165" legendPosition="Automatic" id="165">
+      <mxCell style="display" parent="1" vertex="1" visible="0">
+        <mxGeometry x="10" y="10" width="64" height="64" as="geometry" />
+      </mxCell>
+    </Display>
+    <Display name="Impacts on economy" Note="" Type="Time Series" xAxis="Time (%u)" yAxis="" yAxis2="" showMarkers="false" showLines="true" showArea="false" Primitives="158" Primitives2="" AutoAddPrimitives="false" ScatterplotOrder="X Primitive, Y Primitive" Image="Display" FlipHorizontal="false" FlipVertical="false" LabelPosition="Bottom" oldId="166" legendPosition="Automatic" id="166">
+      <mxCell style="display" parent="1" vertex="1" visible="0">
+        <mxGeometry x="10" y="10" width="64" height="64" as="geometry" />
+      </mxCell>
+    </Display>
+    <Display name="Impacts on climate" Note="" Type="Time Series" xAxis="Time (%u)" yAxis="" yAxis2="" showMarkers="false" showLines="true" showArea="false" Primitives="94" Primitives2="" AutoAddPrimitives="false" ScatterplotOrder="X Primitive, Y Primitive" Image="Display" FlipHorizontal="false" FlipVertical="false" LabelPosition="Bottom" oldId="167" legendPosition="Automatic" id="167">
+      <mxCell style="display" parent="1" vertex="1" visible="0">
+        <mxGeometry x="10" y="10" width="64" height="64" as="geometry" />
+      </mxCell>
+    </Display>
+  </root>
+</InsightMakerModel>
